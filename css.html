@@ -1,0 +1,334 @@
+A: According to the normal flow
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<p> div is example of static html element</p>
+
+<div style="position: static; border: 2px solid blue;">
+This HTML div element has static position;
+</div>
+</body>
+</head>
+</html>
+
+B:  Position: Relative 
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<p>Next div is example of static html element</p>
+
+<div style="position: relative; border: 2px solid blue; left: 20px; bottom: 20px;">
+This div element has position relative;
+</div>
+</body>
+</head>
+</html>
+
+C:  Position – Fixed 
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<div style="position: fixed; border: 2px solid blue; top: 20px; right: 0px;">
+This HTML div element has fixed position;
+</div>
+</body>
+</head>
+</html>
+
+
+
+D: Position:  Absolute
+<!DOCTYPE html>
+<html>
+<head>
+<body>
+<div style="position: relative; border: 2px solid blue; left: 20px; width: 400px; height: 200px;">
+  This is parent element.
+<div style="position: absolute; border: 2px solid blue; bottom: 20px; right: 0px;">
+        This HTML div element has fixed position;
+</div>
+</body>
+</head>
+</html>
+
+E: Float property Program practice 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+img {
+  float: left;
+}
+</style>
+</head>
+<body>
+<h1>The float Property</h1>
+
+<p>In this example, the image will float to the left in the text, and the text in the paragraph will wrap around the image.</p>
+
+<p><img src="Sanjiva.jpg" alt="Sanjiva Bennur" style="width:170px;height:170px;margin-right:15px;">
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet </p>
+
+</body>
+</html>
+
+F:  Float Property Example 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+span {
+  float: left;
+  width: 0.7em;
+  font-size: 400%;
+  font-family: algerian, courier;
+  line-height: 80%;
+}
+</style>
+</head>
+<body>
+
+<p><span>T</span>his is some text.
+This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+This is some text. This is some text. This is some text.
+</p>
+
+<p>In the paragraph above, the first letter of the text is embedded in a span element. The span element has a width that is 0.7 times the size of the current font. The font-size of the span element is 400% (quite large) and the line-height is 80%. The font of the letter in the span will be in "Algerian".</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+G:  Float Property Example 
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div {
+  float: left;
+  padding: 15px; 
+}
+
+.div1 {
+  background: red;
+}
+
+.div2 {
+  background: yellow;
+}
+
+.div3 {
+  background: green;
+}
+</style>
+</head>
+<body>
+
+<h2>Float Next To Each Other</h2>
+
+<p>In this example, the three divs will float next to each other.</p>
+
+<div class="div1">Div 1</div>
+<div class="div2">Div 2</div>
+<div class="div3">Div 3</div>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+H : Creation of radio buttons
+
+<html>
+
+<head>
+	<title>
+		Radio Button 
+	<title>
+</head>
+
+<body>
+	<form>
+		Do you agree this statement? 
+		<br>
+		<input type="radio"
+			name="agree"
+			value="yes">Yes 
+		<br>
+		<input type="radio"
+			name="agree"
+			value="no">No 
+		<br>
+		<input type="Submit">
+	</form>
+</body>
+
+</html>
+
+
+I :  Check  Boxes 
+
+<html>
+
+<head>
+	<title>
+		HTML Checkbox 
+	<title>
+</head>
+
+<body>
+	<form>
+		Choose languages you know: 
+		<br>
+		<input type="checkbox"
+			name="C"
+			value="yes">C 
+		<br>
+		<input type="checkbox"
+			name="C++"
+			value="yes">C++ 
+		<br>
+		<input type="checkbox"
+			name="Java"
+			value="yes">Java 
+		<br>
+		<input type="checkbox"
+			name="Python"
+			value="yes">Python 
+		<br>
+		<input type="Submit">
+	</form>
+</body>
+
+</html>
+
+
+I:  Drop Down Box 
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>The select Element</h2>
+
+<p>The select element defines a drop-down list:</p>
+
+<form action="/action_page.html">
+<label for="cars">Choose a car:</label>
+<select id="cars" name="cars">
+<option value="volvo">Volvo</option>
+<option value="saab">Saab</option>
+<option value="fiat">Fiat</option>
+<option value="audi">Audi</option>
+</select>
+<input type="submit">
+</form>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+J:  Text Box
+
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>Text input fields</h2>
+
+<form>
+<label for="fname">First name:</label><br>
+<input type="text" id="fname" name="fname" value="John"><br>
+<label for="lname">Last name:</label><br>
+<input type="text" id="lname" name="lname" value="Doe">
+</form>
+
+<p>Note that the form itself is not visible.</p>
+
+<p>Also note that the default width of text input fields is 20 characters.</p>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+K: Buttons
+
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+.button2 {background-color: #008CBA;} /* Blue */
+</style>
+</head>
+<body>
+
+<button class="button button1">Green</button>
+<button class="button button2">Blue</button>
+
+</body>
+</html>
